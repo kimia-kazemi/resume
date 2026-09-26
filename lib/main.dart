@@ -1588,7 +1588,7 @@ class _GhostButton extends StatelessWidget {
 }
 
 class _SocialIcon extends StatelessWidget {
-  final IconData icon;
+  final FaIconData icon;
   final Function() ontap;
 
   const _SocialIcon(this.icon, this.ontap);
@@ -1605,7 +1605,7 @@ class _SocialIcon extends StatelessWidget {
       ),
       child: IconButton(
         onPressed: ontap,
-        icon: Icon(icon, color: Colors.white),
+        icon: FaIcon(icon, color: Colors.white),
         iconSize: 18,
       ),
     );
