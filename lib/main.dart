@@ -214,6 +214,7 @@ class _NavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
+    //new commits implemeted
     final links = [
       {'label': l10n.work, 'id': 'work'},
       {'label': l10n.about, 'id': 'about'},
