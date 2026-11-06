@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
       builder: (context, _) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Kimia Kazemi — Portfolio',
+          title: 'Kimia Kazemi | Flutter Developer',
           locale: _languageProvider.locale,
           localizationsDelegates: const [
             AppLocalizations.delegate,
